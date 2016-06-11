@@ -1,0 +1,2 @@
+# PlayingTemps
+Localization (Spanish)
