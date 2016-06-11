@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F42AA9DA1CF36EB20057B4AC /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42AA9D91CF36EB20057B4AC /* ConversionViewController.swift */; };
+		F44A0B501D0B34860044203F /* PlaceAnnotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44A0B4F1D0B34860044203F /* PlaceAnnotations.swift */; };
+		F47BC7B91CF765F3009C266F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F47BC7BB1CF765F3009C266F /* Localizable.strings */; };
+		F484E2721CF4C1A800C22427 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F484E2711CF4C1A800C22427 /* MapKit.framework */; };
+		F484E2751CF4C53F00C22427 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F484E2741CF4C53F00C22427 /* MapViewController.swift */; };
 		F4876EB51CF2DCD4008E26F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4876EB41CF2DCD4008E26F1 /* AppDelegate.swift */; };
-		F4876EB71CF2DCD4008E26F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4876EB61CF2DCD4008E26F1 /* ViewController.swift */; };
 		F4876EBA1CF2DCD4008E26F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4876EB81CF2DCD4008E26F1 /* Main.storyboard */; };
 		F4876EBC1CF2DCD4008E26F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4876EBB1CF2DCD4008E26F1 /* Assets.xcassets */; };
 		F4876EBF1CF2DCD4008E26F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4876EBD1CF2DCD4008E26F1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F417C4A41CF75DB800130563 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		F42AA9D91CF36EB20057B4AC /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
+		F44A0B4F1D0B34860044203F /* PlaceAnnotations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceAnnotations.swift; sourceTree = "<group>"; };
+		F47BC7BA1CF765F3009C266F /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F484E2711CF4C1A800C22427 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F484E2741CF4C53F00C22427 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		F4876EB11CF2DCD4008E26F1 /* PlayingTemps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingTemps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4876EB41CF2DCD4008E26F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4876EB61CF2DCD4008E26F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F4876EB91CF2DCD4008E26F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4876EBB1CF2DCD4008E26F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4876EBE1CF2DCD4008E26F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4876EC01CF2DCD4008E26F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D221AF1CF720BE005516CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,16 +39,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F484E2721CF4C1A800C22427 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F443A2EB1D09617900EBFBC6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F4876EBD1CF2DCD4008E26F1 /* LaunchScreen.storyboard */,
+				F4876EB81CF2DCD4008E26F1 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		F443A2EC1D09619100EBFBC6 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				F44A0B4F1D0B34860044203F /* PlaceAnnotations.swift */,
+				F4876EBB1CF2DCD4008E26F1 /* Assets.xcassets */,
+				F4876EC01CF2DCD4008E26F1 /* Info.plist */,
+				F47BC7BB1CF765F3009C266F /* Localizable.strings */,
+			);
+			name = Extras;
+			sourceTree = "<group>";
+		};
+		F484E2731CF4C1B100C22427 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F484E2711CF4C1A800C22427 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			path = PlayingTemps;
+			sourceTree = "<group>";
+		};
+		F484E2761CF4C54C00C22427 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4876EB41CF2DCD4008E26F1 /* AppDelegate.swift */,
+				F42AA9D91CF36EB20057B4AC /* ConversionViewController.swift */,
+				F484E2741CF4C53F00C22427 /* MapViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		F4876EA81CF2DCD4008E26F1 = {
 			isa = PBXGroup;
 			children = (
 				F4876EB31CF2DCD4008E26F1 /* PlayingTemps */,
+				F484E2731CF4C1B100C22427 /* Frameworks */,
 				F4876EB21CF2DCD4008E26F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +105,9 @@
 		F4876EB31CF2DCD4008E26F1 /* PlayingTemps */ = {
 			isa = PBXGroup;
 			children = (
-				F4876EB41CF2DCD4008E26F1 /* AppDelegate.swift */,
-				F4876EB61CF2DCD4008E26F1 /* ViewController.swift */,
-				F4876EB81CF2DCD4008E26F1 /* Main.storyboard */,
-				F4876EBB1CF2DCD4008E26F1 /* Assets.xcassets */,
-				F4876EBD1CF2DCD4008E26F1 /* LaunchScreen.storyboard */,
-				F4876EC01CF2DCD4008E26F1 /* Info.plist */,
+				F443A2EB1D09617900EBFBC6 /* Storyboards */,
+				F484E2761CF4C54C00C22427 /* Controller */,
+				F443A2EC1D09619100EBFBC6 /* Extras */,
 			);
 			path = PlayingTemps;
 			sourceTree = "<group>";
@@ -123,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4876EBF1CF2DCD4008E26F1 /* LaunchScreen.storyboard in Resources */,
+				F47BC7B91CF765F3009C266F /* Localizable.strings in Resources */,
 				F4876EBC1CF2DCD4008E26F1 /* Assets.xcassets in Resources */,
 				F4876EBA1CF2DCD4008E26F1 /* Main.storyboard in Resources */,
 			);
@@ -135,7 +184,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4876EB71CF2DCD4008E26F1 /* ViewController.swift in Sources */,
+				F44A0B501D0B34860044203F /* PlaceAnnotations.swift in Sources */,
+				F42AA9DA1CF36EB20057B4AC /* ConversionViewController.swift in Sources */,
+				F484E2751CF4C53F00C22427 /* MapViewController.swift in Sources */,
 				F4876EB51CF2DCD4008E26F1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,10 +194,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		F47BC7BB1CF765F3009C266F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F47BC7BA1CF765F3009C266F /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		F4876EB81CF2DCD4008E26F1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F4876EB91CF2DCD4008E26F1 /* Base */,
+				F4D221AF1CF720BE005516CC /* en */,
+				F417C4A41CF75DB800130563 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -286,6 +347,7 @@
 				F4876EC51CF2DCD4008E26F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
